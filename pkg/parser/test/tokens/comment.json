@@ -1,0 +1,24 @@
+[
+  {
+    "type": 4,
+    "value": " a comment",
+    "line": 1,
+    "lineStart": 0,
+    "range": [
+      0,
+      11
+    ]
+  },
+  {
+    "type": 2,
+    "value": "\n",
+    "line": 1,
+    "lineStart": 0,
+    "lastLine": 2,
+    "lastLineStart": 12,
+    "range": [
+      11,
+      12
+    ]
+  }
+]

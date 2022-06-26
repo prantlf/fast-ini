@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "micromatch": "^4.0.5"
+  }
+}

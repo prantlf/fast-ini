@@ -1,0 +1,74 @@
+{
+  "name": "fast-ini-linter",
+  "version": "0.0.1",
+  "description": "Checks syntax of INI files with great performance.",
+  "author": "Ferdinand Prantl <prantlf@gmail.com> (http://prantlf.tk/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prantlf/fast-ini.git"
+  },
+  "homepage": "https://github.com/prantlf/fast-ini#readme",
+  "bugs": "https://github.com/prantlf/fast-ini/issues",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.8"
+  },
+  "files": [
+    "bin",
+    "man"
+  ],
+  "bin": {
+    "inilint": "bin/index.js"
+  },
+  "man": [
+    "man/man1/inilint.1"
+  ],
+  "type": "module",
+  "scripts": {
+    "lint": "denolint",
+    "check": "echo 'foo = bar' | node bin/index",
+    "cover": "c8 node bin/index -h && c8 --no-clean node bin/index -V && echo 'foo = bar' | c8 --no-clean node bin/index && c8 --no-clean node bin/index -v test/invalid.ini || c8 --no-clean node bin/index -e -s --no-context --no-colors test/valid.ini && c8 --no-clean node bin/index --dummy || c8 report -r text -r lcov && c8 check-coverage",
+    "test": "denolint && c8 node bin/index -h && c8 --no-clean node bin/index -V && echo 'foo = bar' | c8 --no-clean node bin/index && c8 --no-clean node bin/index -v test/invalid.ini || c8 --no-clean node bin/index -e -s --no-context --no-colors test/valid.ini && c8 --no-clean node bin/index --dummy || c8 report -r text -r lcov && c8 check-coverage"
+  },
+  "c8": {
+    "reporter": [],
+    "branches": 100,
+    "lines": 100,
+    "functions": 100,
+    "statements": 100
+  },
+  "release": {
+    "extends": "semantic-release-monorepo",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/github",
+        {
+          "failComment": false
+        }
+      ],
+      "@semantic-release/git"
+    ]
+  },
+  "dependencies": {
+    "colorette": "^2.0.19",
+    "fast-ini-parser": "workspace:^0.0.1",
+    "tiny-glob": "^0.2.9"
+  },
+  "devDependencies": {
+    "@node-rs/deno-lint": "^1.13.1",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "c8": "^7.11.3",
+    "semantic-release": "^19.0.3",
+    "semantic-release-monorepo": "^7.0.5"
+  },
+  "keywords": [
+    "ini",
+    "lint",
+    "check"
+  ]
+}

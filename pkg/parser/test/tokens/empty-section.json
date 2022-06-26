@@ -1,0 +1,45 @@
+[
+  {
+    "type": 8,
+    "value": "[",
+    "line": 1,
+    "lineStart": 0,
+    "range": [
+      0,
+      1
+    ]
+  },
+  {
+    "type": 16,
+    "value": "section",
+    "raw": "section",
+    "line": 1,
+    "lineStart": 0,
+    "range": [
+      1,
+      8
+    ]
+  },
+  {
+    "type": 8,
+    "value": "]",
+    "line": 1,
+    "lineStart": 0,
+    "range": [
+      8,
+      9
+    ]
+  },
+  {
+    "type": 2,
+    "value": "\n",
+    "line": 1,
+    "lineStart": 0,
+    "lastLine": 2,
+    "lastLineStart": 10,
+    "range": [
+      9,
+      10
+    ]
+  }
+]

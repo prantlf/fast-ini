@@ -1,0 +1,67 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "inilint",
+      "type": "node",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/pkg/linter/bin/index.js",
+      "args": ["pkg/linter/test/valid.ini"],
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "tokenize",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/pkg/parser/test/tokenize",
+      "env": {
+        // "FAST_INI_TESTS": "empty-section"
+      },
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "parse",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/pkg/parser/test/parse",
+      "env": {
+        // "FAST_INI_TESTS": "comment"
+      },
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "format",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/pkg/formatter/test/format",
+      "env": {
+        // "FAST_INI_TESTS": "comment"
+      },
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "read",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/pkr/reader/test/read",
+      "env": {
+        // "FAST_INI_TESTS": "empty-section"
+      },
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "write",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/pkr/writer/test/write",
+      "env": {
+        // "FAST_INI_TESTS": "empty-section"
+      },
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

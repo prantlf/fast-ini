@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="435.5" height="62" viewBox="0 0 435.5 62">
+  <defs>
+    <style type="text/css"><![CDATA[
+      path {
+        stroke-width: 3;
+        stroke: black;
+        fill: rgba(0,0,0,0);
+      }
+      text {
+        font: bold 14px monospace;
+        text-anchor: middle;
+        white-space: pre;
+        fill: black;
+      }
+      text.diagram-text {
+        font-size: 12px;
+      }
+      text.diagram-arrow {
+        font-size: 16px;
+      }
+      text.label {
+        text-anchor: start;
+      }
+      text.comment {
+        font: italic 12px monospace;
+      }
+      rect {
+        stroke-width: 3;
+        stroke: black;
+        fill: hsl(180,100%,90%);
+      }
+      rect[rx] {
+        fill: hsl(120,100%,90%);
+      }
+      rect.group-box {
+        stroke: gray;
+        stroke-dasharray: 10 5;
+        fill: none;
+      }
+      path.diagram-text {
+        stroke-width: 3;
+        stroke: black;
+        fill: white;
+        cursor: help;
+      }
+      g.diagram-text:hover path.diagram-text {
+        fill: #eee;
+      }
+    ]]></style>
+  </defs>
+
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 21v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 31h10"></path>
+<g class="non-terminal">
+<path d="M50 31h0"></path>
+<path d="M129.5 31h0"></path>
+<rect x="50" y="20" width="79.5" height="22"></rect>
+<a xlink:href="#key-name"><text x="89.75" y="35">KeyName</text>
+</a>
+</g>
+<path d="M129.5 31h10"></path>
+<path d="M139.5 31h10"></path>
+<g class="terminal">
+<path d="M149.5 31h0"></path>
+<path d="M178 31h0"></path>
+<rect x="149.5" y="20" width="28.5" height="22" rx="10" ry="10"></rect>
+<text x="163.75" y="35">=</text>
+</g>
+<path d="M178 31h10"></path>
+<path d="M188 31h10"></path>
+<g class="non-terminal">
+<path d="M198 31h0"></path>
+<path d="M260.5 31h0"></path>
+<rect x="198" y="20" width="62.5" height="22"></rect>
+<a xlink:href="#value"><text x="229.25" y="35">Value</text>
+</a>
+</g>
+<path d="M260.5 31h10"></path>
+<path d="M270.5 31h10"></path>
+<g class="terminal">
+<path d="M280.5 31h0"></path>
+<path d="M385.5 31h0"></path>
+<rect x="280.5" y="20" width="105" height="22" rx="10" ry="10"></rect>
+<text x="333" y="35">Line break</text>
+</g>
+<path d="M385.5 31h10"></path>
+<path d="M 395.5 31 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

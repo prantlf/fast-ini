@@ -1,0 +1,8 @@
+-
+  type: Optional
+  item:
+    type: Terminal
+    text: \r
+-
+  type: Terminal
+  text: \n

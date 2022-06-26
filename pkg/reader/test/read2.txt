@@ -1,0 +1,53 @@
+import { fail } from 'assert'
+import tehanu from 'tehanu'
+import { readTests, checkSnapshot } from '../../../common/test/helpers.js'
+import { read } from '../dist/index.mjs'
+
+const test = tehanu(import.meta.url)
+
+test('fails with unfinished key', () => {
+  let data
+  try {
+    data = read('unfinished')
+  } catch ({ message, code, line, column, offset, length }) {
+    if (!(message && code && line && column &&
+        offset !== undefined && length !== undefined)) fail('missing error info')
+  }
+  if (data) fail()
+})
+
+test('fails with unfinished group', () => {
+  let data
+  try {
+    data = read('[')
+  } catch ({ message, code, line, column, offset, length }) {
+    if (!(message && code && line && column &&
+        offset !== undefined && length !== undefined)) fail('missing error info')
+  }
+  if (data) fail()
+})
+
+test('fails with unfinished key', () => {
+  let data
+  try {
+    data = read('\r\nunfinished=')
+  } catch ({ message, code, line, column, offset, length }) {
+    if (!(message && code && line && column &&
+        offset !== undefined && length !== undefined)) fail('missing error info')
+  }
+  if (data) fail()
+})
+
+const tests = readTests('files')
+
+for (const { name, content } of tests) {
+  test(name, async () => {
+    let fromText
+    try {
+      fromText = read(content)
+    } catch ({ message, line, column }) {
+      fail(`<input>[${line},${column + 1}]: ${message}`)
+    }
+    await checkSnapshot('reader', 'data', 'json', name, fromText)
+  })
+}

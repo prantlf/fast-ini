@@ -1,0 +1,4 @@
+type: OneOrMore
+item:
+  type: Terminal
+  text: "Anything but ]"

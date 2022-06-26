@@ -1,0 +1,36 @@
+{
+  "type": "File",
+  "body": [
+    {
+      "type": "Key",
+      "name": {
+        "type": "Name",
+        "value": "ungrouped"
+      },
+      "value": {
+        "type": "Value",
+        "value": "42 ungrouped"
+      }
+    },
+    {
+      "type": "Section",
+      "name": {
+        "type": "Name",
+        "value": "section"
+      },
+      "body": [
+        {
+          "type": "Key",
+          "name": {
+            "type": "Name",
+            "value": "grouped"
+          },
+          "value": {
+            "type": "Value",
+            "value": "42 grouped"
+          }
+        }
+      ]
+    }
+  ]
+}

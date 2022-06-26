@@ -1,0 +1,85 @@
+{
+  "name": "fast-ini-reader",
+  "version": "0.0.1",
+  "description": "Reads INI files to JSON objects with great performance.",
+  "author": "Ferdinand Prantl <prantlf@gmail.com> (http://prantlf.tk/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prantlf/fast-ini.git"
+  },
+  "homepage": "https://github.com/prantlf/fast-ini#readme",
+  "bugs": "https://github.com/prantlf/fast-ini/issues",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "browser": "dist/index.umd.min.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs"
+  },
+  "scripts": {
+    "prepare": "rollup -c && cp src/index.d.ts dist",
+    "build": "rollup -c && cp src/index.d.ts dist",
+    "watch": "rollup -cw",
+    "lint": "denolint",
+    "check": "teru-esm test/*.js",
+    "cover": "c8 teru-esm test/*.js",
+    "test": "denolint && c8 teru-esm test/*.js"
+  },
+  "c8": {
+    "check-coverage": true,
+    "reporter": [
+      "text",
+      "lcov"
+    ],
+    "branches": 100,
+    "lines": 100,
+    "functions": 100,
+    "statements": 100
+  },
+  "release": {
+    "extends": "semantic-release-monorepo",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/github",
+        {
+          "failComment": false
+        }
+      ],
+      "@semantic-release/git"
+    ]
+  },
+  "devDependencies": {
+    "@node-rs/deno-lint": "^1.13.1",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "c8": "^7.11.3",
+    "rollup": "^2.75.6",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-swc-minify": "^1.0.3",
+    "semantic-release": "^19.0.3",
+    "semantic-release-monorepo": "^7.0.5",
+    "tehanu": "^1.0.1",
+    "tehanu-repo-coco": "^1.0.0",
+    "tehanu-teru": "^1.0.0"
+  },
+  "keywords": [
+    "ini",
+    "decode",
+    "parse",
+    "deserialize",
+    "read"
+  ]
+}

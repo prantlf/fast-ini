@@ -1,0 +1,29 @@
+-
+  type: Terminal
+  text: "["
+-
+  type: NonTerminal
+  text: SectionName
+  href: "#section-name"
+-
+  type: Terminal
+  text: "]"
+-
+  type: Terminal
+  text: Line break
+-
+  type: ZeroOrMore
+  item:
+    type: Choice
+    options:
+      -
+        type: NonTerminal
+        text: Key
+        href: "#key"
+      -
+        type: NonTerminal
+        text: Comment
+        href: "#comment"
+      -
+        type: Terminal
+        text: Line break

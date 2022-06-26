@@ -1,0 +1,14 @@
+-
+  type: NonTerminal
+  text: KeyName
+  href: "#key-name"
+-
+  type: Terminal
+  text: "="
+-
+  type: NonTerminal
+  text: Value
+  href: "#value"
+-
+  type: Terminal
+  text: Line break

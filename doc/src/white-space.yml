@@ -1,0 +1,10 @@
+type: OneOrMore
+item:
+  type: Choice
+  options:
+    -
+      type: Terminal
+      text:  " "
+    -
+      type: Terminal
+      text: \t

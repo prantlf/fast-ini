@@ -1,0 +1,8 @@
+-
+  type: Terminal
+  text: "Anything but white space or ="
+-
+  type: ZeroOrMore
+  item:
+    type: Terminal
+    text: "Anything but ="

@@ -1,0 +1,30 @@
+{
+  "type": "File",
+  "body": [],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 1,
+      "column": 2
+    }
+  },
+  "range": [
+    0,
+    2
+  ],
+  "tokens": [
+    {
+      "type": 1,
+      "value": "<eof>",
+      "line": 1,
+      "lineStart": 0,
+      "range": [
+        0,
+        0
+      ]
+    }
+  ]
+}

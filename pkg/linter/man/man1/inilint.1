@@ -1,0 +1,65 @@
+.TH inilint "1" "June 26, 2022" "" "inilint manual"
+
+.SH NAME
+inilint - INI file syntax checker
+
+.SH SYNOPSIS
+.B inilint
+[--[no]-context] [--[no]-colors]
+.br
+[-e|--errors-only]
+.br
+[-s|--silent] [-v|--verbose]
+.br
+[-V|--version] [-h|--help]
+[
+.I [pattern...]
+]
+.RE
+
+.SH DESCRIPTION
+.B
+Checks syntax of INI files with great performance.
+
+.SH OPTIONS
+.B
+.IP "--[no]-context"
+show near source as error context. defaults to true
+.B
+.IP "--[no]-colors"
+enable colors in the terminal. default is auto
+.B
+.IP "-e, --errors-only"
+print only files that failed the check
+.B
+.IP "-s, --silent"
+suppress output
+.B
+.IP "-v|--verbose"
+print error stacktrace
+.B
+.IP "-V, --version"
+print version number
+.B
+.IP "-h, --help"
+print usage instructions
+
+.RE
+If no file name is provided, standard input will be read.
+
+.SH EXAMPLES
+.B
+.IP "echo 'foo = bar' | inilint"
+Check INI file contents from the standard input.
+.B
+.IP "inilint -e foo.ini"
+Check INI file contents and print only errors if the syntax is invalid.
+
+.SH BUGS
+inilint's bug tracker is located at <https://github.com/prantlf/fast-ini/issues>
+
+.SH DOCUMENTATION
+See the website for documentation <https://github.com/prantlf/fast-ini#readme>
+
+.SH AUTHOR
+Currently maintained by Ferdinand Prantl <prantlf@gmail.com>

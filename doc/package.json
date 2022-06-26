@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/_generate"
+  },
+  "devDependencies": {
+    "@prantlf/railroad-diagrams": "^1.0.1",
+    "js-yaml": "^4.1.0"
+  }
+}

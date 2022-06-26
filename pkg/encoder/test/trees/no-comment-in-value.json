@@ -1,0 +1,16 @@
+{
+  "type": "File",
+  "body": [
+    {
+      "type": "Key",
+      "name": {
+        "type": "Name",
+        "value": "ungrouped"
+      },
+      "value": {
+        "type": "Value",
+        "value": "42 ; no comment"
+      }
+    }
+  ]
+}

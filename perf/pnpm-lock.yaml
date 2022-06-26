@@ -1,0 +1,93 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@ghostff/ini_parser': ^1.0.1
+  benchmark: ^2.1.4
+  conf-cfg-ini: ^1.2.3
+  config-ini-parser: ^1.5.9
+  ezini: ^1.2.5
+  ini: ^3.0.0
+  ini-api: ^1.2.0
+  ini-data: ^1.1.1
+  js-ini: ^1.5.1
+  multi-ini: ^2.2.0
+  prop-ini: ^0.0.2
+
+devDependencies:
+  '@ghostff/ini_parser': 1.0.1
+  benchmark: 2.1.4
+  conf-cfg-ini: 1.2.3
+  config-ini-parser: 1.5.9
+  ezini: 1.2.5
+  ini: 3.0.0
+  ini-api: 1.2.0
+  ini-data: 1.1.1
+  js-ini: 1.5.1
+  multi-ini: 2.2.0
+  prop-ini: 0.0.2
+
+packages:
+
+  /@ghostff/ini_parser/1.0.1:
+    resolution: {integrity: sha512-mRILeyySQvG7xWukWx7oyTQ8X9jKbPHg9m/zgQWhsJ2pmiZ9YY9Tf1zn7p3pn6O6j1VGIEj82yhkwNDdUMb5YA==}
+    dev: true
+
+  /benchmark/2.1.4:
+    resolution: {integrity: sha512-l9MlfN4M1K/H2fbhfMy3B7vJd6AGKJVQn2h6Sg/Yx+KckoUA7ewS5Vv6TjSq18ooE1kS9hhAlQRH3AkXIh/aOQ==}
+    dependencies:
+      lodash: 4.17.21
+      platform: 1.3.6
+    dev: true
+
+  /conf-cfg-ini/1.2.3:
+    resolution: {integrity: sha512-/hJTYLRt25ZJt6FHHZiFDCAQ97yeB/aPWEMiScQs8A61O0V/1YdPq1tYvj9y6iHX/HC6z+7uMzwJZFPOCTVm8A==}
+    dev: true
+
+  /config-ini-parser/1.5.9:
+    resolution: {integrity: sha512-FLAMUunXCqbpEbv/q0v76lLewmZ03LUM4xslsPpZ2IN7/sQUaKfXNoTl8EjOTjlkHgrNzmJ//Y5crgabbIWjfQ==}
+    dev: true
+
+  /extend/3.0.2:
+    resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
+    dev: true
+
+  /ezini/1.2.5:
+    resolution: {integrity: sha512-9g/u/dKg95srzdHiI5kYmzZFX7R8/UrV0DgEKlmKii22mNA7KMpfR8qgmOyCREvqlUjd6V0EuAjB3B7G/ukXcw==}
+    dev: true
+
+  /ini-api/1.2.0:
+    resolution: {integrity: sha512-04pQSa7foEaDlpfJ3kBG9ghBn9gXaa23ZWOooYrQWcyOljRGLd96iY74Ge0cFJTWuSReeSQXU6WvFIG0PEukAQ==}
+    dev: true
+
+  /ini-data/1.1.1:
+    resolution: {integrity: sha512-dAlUW5822u8+dai9ULXmJZpFdX+8kaYNGxHLti52k/AcfX7Jj3ZEofzcndCaDfDZKbJIwIaGl7zThbNIdSvPyg==}
+    dev: true
+
+  /ini/3.0.0:
+    resolution: {integrity: sha512-TxYQaeNW/N8ymDvwAxPyRbhMBtnEwuvaTYpOQkFx1nSeusgezHniEc/l35Vo4iCq/mMiTJbpD7oYxN98hFlfmw==}
+    engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    dev: true
+
+  /js-ini/1.5.1:
+    resolution: {integrity: sha512-jvSZb1TcYFOPZIB+HHNBu5xKUF/87iOX+EBQxN5obUfEMtBE4k/z73v3LLVSVtv3PtBAh34bTNBt/KGtFZ5EaQ==}
+    dev: true
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: true
+
+  /multi-ini/2.2.0:
+    resolution: {integrity: sha512-RKNuYAX0LC+UfjRQSRC3QoV37vVxNhx32mGysN+aiiNfJzu4xIzGCtpAKwgFXqdmUdCFmX/VSfpHCS0ALNjasQ==}
+    dependencies:
+      lodash: 4.17.21
+    dev: true
+
+  /platform/1.3.6:
+    resolution: {integrity: sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==}
+    dev: true
+
+  /prop-ini/0.0.2:
+    resolution: {integrity: sha512-qyU57WvAvZDbzmRy9xDbJGVwrGJhmA+rYnVjy4xtX4Ny9c7gzvpmf/j7A3oq9ChbPh15MZQKjPep2mNdnAhtig==}
+    dependencies:
+      extend: 3.0.2
+    dev: true

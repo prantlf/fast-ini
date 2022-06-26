@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "npm: watch",
+      "detail": "rollup -c rollup.config.js -w",
+      "type": "npm",
+      "script": "watch",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "isBackground": true,
+      "problemMatcher": [
+        {
+          "owner": "rollup",
+          "source": "rollup",
+          "fileLocation": [
+            "relative",
+            "${workspaceFolder}"
+          ],
+          "pattern": [
+            {
+              "regexp": "^\\[!\\] (Error): (.+)$",
+              "severity": 1,
+              "message": 2
+            },
+            {
+              "regexp": "^([^ ]+) \\((\\d+):(\\d+)\\)$",
+              "file": 1,
+              "line": 2,
+              "column": 3
+            }
+          ],
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "^rollup .+$",
+            "endsPattern": "^\\[[^\\]]+\\] waiting for changes\\.\\.\\.$"
+          }
+        }
+      ]
+    }
+  ]
+}

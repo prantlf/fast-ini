@@ -1,0 +1,20 @@
+-
+  type: ZeroOrMore
+  item:
+    type: Choice
+    options:
+      -
+        type: NonTerminal
+        text: Key
+        href: "#key"
+      -
+        type: NonTerminal
+        text: Section
+        href: "#section"
+      -
+        type: NonTerminal
+        text: Comment
+        href: "#comment"
+      -
+        type: Terminal
+        text: Line break

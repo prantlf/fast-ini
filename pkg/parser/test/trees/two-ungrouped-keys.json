@@ -1,0 +1,273 @@
+{
+  "type": "File",
+  "body": [
+    {
+      "type": "Key",
+      "name": {
+        "type": "Name",
+        "value": "ungrouped",
+        "raw": "ungrouped",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 9
+          }
+        },
+        "range": [
+          0,
+          9
+        ]
+      },
+      "value": {
+        "type": "Value",
+        "value": "42",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 12
+          },
+          "end": {
+            "line": 1,
+            "column": 14
+          }
+        },
+        "range": [
+          12,
+          14
+        ]
+      },
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 14
+        }
+      },
+      "range": [
+        0,
+        14
+      ]
+    },
+    {
+      "type": "Key",
+      "name": {
+        "type": "Name",
+        "value": "ungrouped2",
+        "raw": "ungrouped2",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "line": 2,
+            "column": 10
+          }
+        },
+        "range": [
+          15,
+          25
+        ]
+      },
+      "value": {
+        "type": "Value",
+        "value": "42 again",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 13
+          },
+          "end": {
+            "line": 2,
+            "column": 21
+          }
+        },
+        "range": [
+          28,
+          36
+        ]
+      },
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 21
+        }
+      },
+      "range": [
+        15,
+        36
+      ]
+    }
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 2,
+      "column": 21
+    }
+  },
+  "range": [
+    0,
+    36
+  ],
+  "tokens": [
+    {
+      "type": 16,
+      "value": "ungrouped",
+      "raw": "ungrouped",
+      "line": 1,
+      "lineStart": 0,
+      "range": [
+        0,
+        9
+      ]
+    },
+    {
+      "type": 2,
+      "value": " ",
+      "line": 1,
+      "lineStart": 0,
+      "lastLine": 1,
+      "lastLineStart": 0,
+      "range": [
+        9,
+        10
+      ]
+    },
+    {
+      "type": 8,
+      "value": "=",
+      "line": 1,
+      "lineStart": 0,
+      "range": [
+        10,
+        11
+      ]
+    },
+    {
+      "type": 2,
+      "value": " ",
+      "line": 1,
+      "lineStart": 0,
+      "lastLine": 1,
+      "lastLineStart": 0,
+      "range": [
+        11,
+        12
+      ]
+    },
+    {
+      "type": 32,
+      "value": "42",
+      "line": 1,
+      "lineStart": 0,
+      "range": [
+        12,
+        14
+      ]
+    },
+    {
+      "type": 2,
+      "value": "\n",
+      "line": 1,
+      "lineStart": 0,
+      "lastLine": 2,
+      "lastLineStart": 15,
+      "range": [
+        14,
+        15
+      ]
+    },
+    {
+      "type": 16,
+      "value": "ungrouped2",
+      "raw": "ungrouped2",
+      "line": 2,
+      "lineStart": 15,
+      "range": [
+        15,
+        25
+      ]
+    },
+    {
+      "type": 2,
+      "value": " ",
+      "line": 2,
+      "lineStart": 15,
+      "lastLine": 2,
+      "lastLineStart": 15,
+      "range": [
+        25,
+        26
+      ]
+    },
+    {
+      "type": 8,
+      "value": "=",
+      "line": 2,
+      "lineStart": 15,
+      "range": [
+        26,
+        27
+      ]
+    },
+    {
+      "type": 2,
+      "value": " ",
+      "line": 2,
+      "lineStart": 15,
+      "lastLine": 2,
+      "lastLineStart": 15,
+      "range": [
+        27,
+        28
+      ]
+    },
+    {
+      "type": 32,
+      "value": "42 again",
+      "line": 2,
+      "lineStart": 15,
+      "range": [
+        28,
+        36
+      ]
+    },
+    {
+      "type": 2,
+      "value": "\n",
+      "line": 2,
+      "lineStart": 15,
+      "lastLine": 3,
+      "lastLineStart": 37,
+      "range": [
+        36,
+        37
+      ]
+    },
+    {
+      "type": 1,
+      "value": "<eof>",
+      "line": 3,
+      "lineStart": 37,
+      "range": [
+        37,
+        37
+      ]
+    }
+  ]
+}

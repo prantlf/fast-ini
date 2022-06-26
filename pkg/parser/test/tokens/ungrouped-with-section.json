@@ -1,0 +1,179 @@
+[
+  {
+    "type": 16,
+    "value": "ungrouped",
+    "raw": "ungrouped",
+    "line": 1,
+    "lineStart": 0,
+    "range": [
+      0,
+      9
+    ]
+  },
+  {
+    "type": 2,
+    "value": " ",
+    "line": 1,
+    "lineStart": 0,
+    "lastLine": 1,
+    "lastLineStart": 0,
+    "range": [
+      9,
+      10
+    ]
+  },
+  {
+    "type": 8,
+    "value": "=",
+    "line": 1,
+    "lineStart": 0,
+    "range": [
+      10,
+      11
+    ]
+  },
+  {
+    "type": 2,
+    "value": " ",
+    "line": 1,
+    "lineStart": 0,
+    "lastLine": 1,
+    "lastLineStart": 0,
+    "range": [
+      11,
+      12
+    ]
+  },
+  {
+    "type": 32,
+    "value": "42 ungrouped",
+    "line": 1,
+    "lineStart": 0,
+    "range": [
+      12,
+      24
+    ]
+  },
+  {
+    "type": 2,
+    "value": "\n\n",
+    "line": 1,
+    "lineStart": 0,
+    "lastLine": 3,
+    "lastLineStart": 26,
+    "range": [
+      24,
+      26
+    ]
+  },
+  {
+    "type": 8,
+    "value": "[",
+    "line": 3,
+    "lineStart": 26,
+    "range": [
+      26,
+      27
+    ]
+  },
+  {
+    "type": 16,
+    "value": "section",
+    "raw": "section",
+    "line": 3,
+    "lineStart": 26,
+    "range": [
+      27,
+      34
+    ]
+  },
+  {
+    "type": 8,
+    "value": "]",
+    "line": 3,
+    "lineStart": 26,
+    "range": [
+      34,
+      35
+    ]
+  },
+  {
+    "type": 2,
+    "value": "\n",
+    "line": 3,
+    "lineStart": 26,
+    "lastLine": 4,
+    "lastLineStart": 36,
+    "range": [
+      35,
+      36
+    ]
+  },
+  {
+    "type": 16,
+    "value": "grouped",
+    "raw": "grouped",
+    "line": 4,
+    "lineStart": 36,
+    "range": [
+      36,
+      43
+    ]
+  },
+  {
+    "type": 2,
+    "value": " ",
+    "line": 4,
+    "lineStart": 36,
+    "lastLine": 4,
+    "lastLineStart": 36,
+    "range": [
+      43,
+      44
+    ]
+  },
+  {
+    "type": 8,
+    "value": "=",
+    "line": 4,
+    "lineStart": 36,
+    "range": [
+      44,
+      45
+    ]
+  },
+  {
+    "type": 2,
+    "value": " ",
+    "line": 4,
+    "lineStart": 36,
+    "lastLine": 4,
+    "lastLineStart": 36,
+    "range": [
+      45,
+      46
+    ]
+  },
+  {
+    "type": 32,
+    "value": "42 grouped",
+    "line": 4,
+    "lineStart": 36,
+    "range": [
+      46,
+      56
+    ]
+  },
+  {
+    "type": 2,
+    "value": "\n",
+    "line": 4,
+    "lineStart": 36,
+    "lastLine": 5,
+    "lastLineStart": 57,
+    "range": [
+      56,
+      57
+    ]
+  }
+]

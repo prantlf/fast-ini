@@ -1,0 +1,13 @@
+{
+  "type": "File",
+  "body": [
+    {
+      "type": "Section",
+      "name": {
+        "type": "Name",
+        "value": "section"
+      },
+      "body": []
+    }
+  ]
+}

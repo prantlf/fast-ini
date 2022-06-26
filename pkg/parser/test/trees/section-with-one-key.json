@@ -1,0 +1,233 @@
+{
+  "type": "File",
+  "body": [
+    {
+      "type": "Section",
+      "name": {
+        "type": "Name",
+        "value": "section",
+        "raw": "section",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 1
+          },
+          "end": {
+            "line": 1,
+            "column": 8
+          }
+        },
+        "range": [
+          1,
+          8
+        ]
+      },
+      "body": [
+        {
+          "type": "Key",
+          "name": {
+            "type": "Name",
+            "value": "grouped",
+            "raw": "grouped",
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 7
+              }
+            },
+            "range": [
+              10,
+              17
+            ]
+          },
+          "value": {
+            "type": "Value",
+            "value": "42",
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 10
+              },
+              "end": {
+                "line": 2,
+                "column": 12
+              }
+            },
+            "range": [
+              20,
+              22
+            ]
+          },
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 12
+            }
+          },
+          "range": [
+            10,
+            22
+          ]
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 12
+        }
+      },
+      "range": [
+        0,
+        22
+      ]
+    }
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 2,
+      "column": 12
+    }
+  },
+  "range": [
+    0,
+    22
+  ],
+  "tokens": [
+    {
+      "type": 8,
+      "value": "[",
+      "line": 1,
+      "lineStart": 0,
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "type": 16,
+      "value": "section",
+      "raw": "section",
+      "line": 1,
+      "lineStart": 0,
+      "range": [
+        1,
+        8
+      ]
+    },
+    {
+      "type": 8,
+      "value": "]",
+      "line": 1,
+      "lineStart": 0,
+      "range": [
+        8,
+        9
+      ]
+    },
+    {
+      "type": 2,
+      "value": "\n",
+      "line": 1,
+      "lineStart": 0,
+      "lastLine": 2,
+      "lastLineStart": 10,
+      "range": [
+        9,
+        10
+      ]
+    },
+    {
+      "type": 16,
+      "value": "grouped",
+      "raw": "grouped",
+      "line": 2,
+      "lineStart": 10,
+      "range": [
+        10,
+        17
+      ]
+    },
+    {
+      "type": 2,
+      "value": " ",
+      "line": 2,
+      "lineStart": 10,
+      "lastLine": 2,
+      "lastLineStart": 10,
+      "range": [
+        17,
+        18
+      ]
+    },
+    {
+      "type": 8,
+      "value": "=",
+      "line": 2,
+      "lineStart": 10,
+      "range": [
+        18,
+        19
+      ]
+    },
+    {
+      "type": 2,
+      "value": " ",
+      "line": 2,
+      "lineStart": 10,
+      "lastLine": 2,
+      "lastLineStart": 10,
+      "range": [
+        19,
+        20
+      ]
+    },
+    {
+      "type": 32,
+      "value": "42",
+      "line": 2,
+      "lineStart": 10,
+      "range": [
+        20,
+        22
+      ]
+    },
+    {
+      "type": 2,
+      "value": "\n",
+      "line": 2,
+      "lineStart": 10,
+      "lastLine": 3,
+      "lastLineStart": 23,
+      "range": [
+        22,
+        23
+      ]
+    },
+    {
+      "type": 1,
+      "value": "<eof>",
+      "line": 3,
+      "lineStart": 23,
+      "range": [
+        23,
+        23
+      ]
+    }
+  ]
+}
