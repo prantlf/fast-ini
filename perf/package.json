@@ -2,7 +2,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "true"
+    "read": "node src/read",
+    "write": "node src/write"
   },
   "devDependencies": {
     "@ghostff/ini_parser": "^1.0.1",

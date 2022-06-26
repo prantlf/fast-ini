@@ -1,5 +1,5 @@
 import createSuite from './create-suite.js'
-import { write } from '../../kg/writer/dist/index.mjs'
+import { write } from '../../pkg/writer/dist/index.mjs'
 import { stringify as writeIni } from 'ini'
 import { stringify as writeJsIni } from 'js-ini'
 import { Serializer as MultiIniWriter } from 'multi-ini'
