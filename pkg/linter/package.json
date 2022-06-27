@@ -28,7 +28,8 @@
     "lint": "denolint",
     "check": "echo 'foo = bar' | node bin/index",
     "cover": "c8 node bin/index -h && c8 --no-clean node bin/index -V && echo 'foo = bar' | c8 --no-clean node bin/index && c8 --no-clean node bin/index -v test/invalid.ini || c8 --no-clean node bin/index -e -s --no-context --no-colors test/valid.ini && c8 --no-clean node bin/index --dummy || c8 report -r text -r lcov && c8 check-coverage",
-    "test": "denolint && c8 node bin/index -h && c8 --no-clean node bin/index -V && echo 'foo = bar' | c8 --no-clean node bin/index && c8 --no-clean node bin/index -v test/invalid.ini || c8 --no-clean node bin/index -e -s --no-context --no-colors test/valid.ini && c8 --no-clean node bin/index --dummy || c8 report -r text -r lcov && c8 check-coverage"
+    "test": "denolint && c8 node bin/index -h && c8 --no-clean node bin/index -V && echo 'foo = bar' | c8 --no-clean node bin/index && c8 --no-clean node bin/index -v test/invalid.ini || c8 --no-clean node bin/index -e -s --no-context --no-colors test/valid.ini && c8 --no-clean node bin/index --dummy || c8 report -r text -r lcov && c8 check-coverage",
+    "upload": "semantic-release -e semantic-release-monorepo"
   },
   "c8": {
     "reporter": [],
